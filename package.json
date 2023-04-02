@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "fake server and db",
   "main": "server.js",
-  "scripts": { 
-  "start": "node server.js" 
-},
+  "scripts": {
+    "start": "node server.js"
+  },
   "author": "Chamseddine Bouhouch",
   "license": "ISC",
   "dependencies": {
+    "json-server": "^0.17.3",
     "json-server-auth": "^2.1.0"
   }
 }
